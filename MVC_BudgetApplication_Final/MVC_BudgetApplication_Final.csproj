@@ -11,9 +11,15 @@
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Models\VeiwModels\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Models\VeiwModels\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.20" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
   </ItemGroup>
 </Project>
